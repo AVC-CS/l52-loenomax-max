@@ -1,8 +1,10 @@
 def getinput(n1, n2):
     print('At function start id n1', id(n1))
     print('At function start id n2', id(n2))
+   
     n1 = input('Enter a number')
     n2 = input('Enter a number')
+   
     print('At function end id n1', id(n1))
     print('At function end id n2', id(n2))
 
